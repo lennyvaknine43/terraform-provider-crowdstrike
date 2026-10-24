@@ -1,0 +1,458 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cid"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cid_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_aws_account"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_aws_account_validation"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_compliance_framework_controls"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_risk_findings"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_security_rules"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_cloud_security_suppression_rules"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_container_registry"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_content_category_versions"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_content_update_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_correlation_rules"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_filevantage_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_firewall_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_firewall_rule_groups"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_host_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_it_automation_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_it_automation_task_groups"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_it_automation_tasks"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_ngsiem_data_connector"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_ngsiem_data_connectors"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_prevention_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_rtr_put_file"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_rtr_script"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_sensor_update_policies"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_sensor_update_policy_builds"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/data-sources/crowdstrike_sensor_visibility_exclusions"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cid_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_aws_account"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_azure_tenant"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_azure_tenant_eventhub_settings"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_compliance_custom_framework"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_google_registration"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_google_registration_settings"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_custom_rule"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_iom_custom_rule"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_kac_custom_rule"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_kac_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_kac_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_cloud_security_suppression_rule"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_container_registry"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_content_update_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_content_update_policy_attachment"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_content_update_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_correlation_rule"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_data_protection_sensitivity_label"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_default_content_update_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_default_prevention_policy_linux"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_default_prevention_policy_mac"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_default_prevention_policy_windows"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_default_sensor_update_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_filevantage_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_filevantage_policy_attachment"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_filevantage_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_filevantage_rule_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_firewall_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_firewall_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_firewall_rule_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_host_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_install_token"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ioa_exclusion"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ioa_rule_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_default_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_scheduled_task"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_task"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_it_automation_task_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ml_certificate_exclusion"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ml_file_path_exclusion"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ngsiem_data_connection"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ngsiem_data_connection_token"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_ngsiem_data_connector_config"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_prevention_policy_attachment"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_prevention_policy_linux"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_prevention_policy_mac"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_prevention_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_prevention_policy_windows"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_response_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_rtr_put_file"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_rtr_script"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_sensor_update_policy"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_sensor_update_policy_host_group_attachment"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_sensor_update_policy_precedence"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_sensor_visibility_exclusion"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_sensor_visibility_exclusion_attachment"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/examples/resources/crowdstrike_user_group"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "devcontainers"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
